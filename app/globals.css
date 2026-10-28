@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --font-inter: 'Inter', system-ui, sans-serif; }
+body { color: #424B57; }
+@keyframes float { 0%,100%{transform:translateY(0) rotate(0deg);} 50%{transform:translateY(-10px) rotate(3deg);} }
+@keyframes breathe { 0%,100%{transform:scale(1);} 50%{transform:scale(1.05);} }
